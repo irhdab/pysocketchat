@@ -54,6 +54,10 @@ while True:
     client.send(message.encode('utf-8'))
 ```
 
+## Dependencies
+
+This project uses only Python's built-in libraries, such as `socket` and `threading`. No additional dependencies are required, as long as you have Python 3 installed.
+
 ## Contributing
 1. Fork repository
 2. Create feature branch (`git checkout -b enhance/feature`)
